@@ -23,12 +23,6 @@ struct TooFast
   dds::rpc::UnusedMember dummy; 
 };
 
-enum Command { START_COMMAND, STOP_COMMAND };
-
-struct Status
-{
-  string msg;
-};
 
 struct RobotControl_command_In 
 { 

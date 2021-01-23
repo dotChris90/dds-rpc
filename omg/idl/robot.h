@@ -43,22 +43,6 @@ typedef struct robot_TooFast
 } robot_TooFast;
 
 
-typedef enum robot_Command
-{
-  robot_START_COMMAND,
-  robot_STOP_COMMAND
-} robot_Command;
-
-#define robot_Command__alloc() \
-((robot_Command*) dds_alloc (sizeof (robot_Command)));
-
-
-typedef struct robot_Status
-{
-  char * msg;
-} robot_Status;
-
-
 
 typedef struct robot_RobotControl_command_In
 {
