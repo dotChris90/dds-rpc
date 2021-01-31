@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dds-rpc"
+version = "0.1.0"
+description = ""
+authors = ["Christian Kahr <dotChris@online.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+idl_parser = "^0.0.17"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
